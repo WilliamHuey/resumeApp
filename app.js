@@ -9,6 +9,7 @@ var express = require('express')
   , http = require('http')
   , stylus = require('stylus')
   , nib = require('nib')
+  , connectAssets = require('connect-assets')
   , path = require('path');
 
 var app = express();
@@ -25,7 +26,8 @@ app.configure(function(){
   app.set('port', process.env.PORT || 3000);
   app.set('views', __dirname + '/views');
   app.set('view engine', 'jade');
-  app.use(stylus.middleware({src: __dirname + '/public', compile : compile}));
+  app.use(stylus.middleware({src: __dirname + '/assets', compile : compile}));
+  app.use(connectAssets());
   app.use(express.favicon());
   app.use(express.logger('dev'));
   app.use(express.bodyParser());
