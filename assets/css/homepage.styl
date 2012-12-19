@@ -1,10 +1,12 @@
+$width-of-header = (1000/16)em
+$height-of-header = (90/16)em
 
 html, body
     background-image url('/images/fabric_plaid.png')
 
 .header-row
     background-color gray
-    height (90/16)em
+    height $height-of-header
     width 100%
     box-shadow 0px 0px 3px 1px #6B6B6B
     -webkit-box-shadow 0px 0px 3px 1px #6B6B6B
@@ -13,26 +15,24 @@ html, body
     border-bottom solid 1px darkgray
 
 .header-row-contents
-    width (1000/16)em
-    height (90/16)em
+    width $width-of-header
+    height $height-of-header
     margin auto
 
 .link-content
-    width (1000/16)em
+    width $width-of-header
 
 .header-link
     color white
     font-size 1.5em
     outline 0
+    &:hover
+        color lightgray
+    &:visited
+        color white
+        &:hover
+            color lightgray
 
-.header-link:hover
-    color lightgray
-
-.header-link:visited
-    color white
-
-.header-link:visited:hover
-    color lightgray
 
 
 
