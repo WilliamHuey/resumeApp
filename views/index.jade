@@ -2,13 +2,10 @@ extends layout
 
 block content
   .row.header-row
-    .header-row-contents
-      .row.link-area
-        .tweleve.columns.link-content
-          .six.columns.visible-when-large
-          .four.columns.visible-when-small
-          .six.columns.bottom.end
-            .three.columns.individual-link-area
+    .tweleve.columns.link-content-wrapper
+        .row
+          .six.columns.end
+            .three.columns.individual-link-area.end
               a(href="#", class="header-link") Skills
             .four.columns.individual-link-area
               a(href="#", class="header-link", id="experience-link") Experience

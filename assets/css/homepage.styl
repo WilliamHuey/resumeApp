@@ -19,8 +19,13 @@ html, body
     height $height-of-header
     margin auto
 
-.link-content
+.link-content-wrapper
     width $width-of-header
+    margin auto
+    float none
+
+.link-content-second-wrapper
+    float right
 
 .header-link
     color white
@@ -33,32 +38,15 @@ html, body
         &:hover
             color lightgray
 
-.individual-link-area
-    margin-top 6.5%
+@media screen and (max-width: 1279px)
+    .link-content-wrapper
+        width 100%
 
-#experience-link
-    margin-left 6%
 
-.four.columns.visible-when-small
-    display none
 
-@media screen and (max-width: 980px) and (min-width: 0em)
-    .six.columns.bottom.end
-        background-color lightgray
-    .six.columns.visible-when-large
-        display none
-    .four.columns.visible-when-small
-        display inline
 
-@media screen and (max-width: 780px) and (min-width: 10px)
-    .four.columns.visible-when-small
-        display none
-    .row.link-area
-        float left
-    .six.columns.bottom.end
-        float left
-    .individual-link-area
-        float left
+
+
 
 
 
