@@ -1,1 +1,3 @@
-body{background-color:#fafafa}
+html,body{background-color:#fafafa}
+.header-row{background-color:#808080;height:5.625em;width:100%;-webkit-box-shadow:0 0 3px 1px #6b6b6b;box-shadow:0 0 3px 1px #6b6b6b;-webkit-box-shadow:0 0 3px 1px #6b6b6b;-moz-box-shadow:0 0 3px 1px #6b6b6b;-o-box-shadow:0 0 3px 1px #6b6b6b;border-bottom:solid 1px #a9a9a9}
+.header-row-contents{width:62.5em;height:5.625em;margin:auto}
