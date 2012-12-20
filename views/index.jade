@@ -1,14 +1,13 @@
 extends layout
 
 block content
-  .row.header-row
-    .tweleve.columns.link-content-wrapper
-        .row
-          .six.columns.offset-by-six
-            .link-content-second-wrapper
-              .three.columns.individual-link-area
-                a(href="#", class="header-link") Skills
-              .four.columns.individual-link-area
-                a(href="#", class="header-link", id="experience-link") Experience
-              .four.columns.individual-link-area
-                a(href="#", class="header-link") Education
+  .row-fluid
+    .span12.header-row
+      .row-fluid.header-row-contents
+          .span6.offset6
+            .span3.individual-link-area
+              a(href="#", class="header-link") Skills
+            .span4.individual-link-area
+              a(href="#", class="header-link", id="experience-link") Experience
+            .span4.individual-link-area
+              a(href="#", class="header-link") Education
