@@ -4,6 +4,7 @@ $height-of-header = (90/16)em
 html, body
     background-image url('/images/fabric_plaid.png')
     width 100%
+    padding 0px
 
 .header-row
     background-color gray
@@ -33,7 +34,10 @@ html, body
             color lightgray
 
 .individual-link-area
-    margin-top 6.8%
+    margin-top 6%
+
+#experience-link
+    margin-left -6.5%
 
 /*1279px*/
 @media screen and (max-width: 79.94em)
@@ -42,10 +46,21 @@ html, body
     .header-row-contents
         width 100%
 
-/*770px*/
-@media screen and (max-width: 48.125em)
+/*765px*/
+@media screen and (min-width: 0em) and (max-width: 47.9375em)
     .individual-link-area
         margin-top 0%
+        margin-bottom (10/16)em
+        text-align center
+    #first-link
+        margin-top (30/16)em
+    #experience-link
+        margin-left 0%
+    .header-row
+        height (160/16)em
+
+
+
 
 
 
