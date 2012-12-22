@@ -10,8 +10,11 @@ html,body{background-image:url("/images/fabric_plaid.png");width:100%;padding:0 
 .individual-link-area{margin-top:5%}
 #experience-link{margin-left:-6.5%}
 #my-logo{width:150px;top:12px;left:5%;position:absolute}
-@media screen and (max-width: 79.94em){body{padding:0}
+.body-wrapper{width:62.5em;margin:auto;clear:both}
+.self-info-row{background-color:#f4f4f4}
+@media screen and (max-width: 79em){body{padding:0}
 .header-row-contents{width:100%}
+.body-wrapper{width:100%}
 }@media screen and (min-width: 0em) and (max-width: 47.9375em){.header-link-wrapper{margin-left:0% !important}
 #my-logo{position:relative;margin:auto;left:0%}
 .individual-link-area{background-color:#a9a9a9;clear:both}
