@@ -1,4 +1,3 @@
-
 $(document).ready () ->
   $('head').append("<style id='stylesTest'></style>")
   $(window).resize () ->
