@@ -27,6 +27,7 @@ html, body
     border-bottom solid 1px darkgray
 
 .header-row-contents
+    position relative
     width $width-of-header
     height $height-of-header
     font-family webfontbold
@@ -52,9 +53,9 @@ html, body
 
 #my-logo
     width 150px
+    top 12px
+    left 5%
     position absolute
-
-
 
 /*1279px*/
 @media screen and (max-width: 79.94em)
@@ -65,6 +66,10 @@ html, body
 
 /*765px*/
 @media screen and (min-width: 0em) and (max-width: 47.9375em)
+    #my-logo
+        position relative
+        margin auto
+        left 0%
     .individual-link-area
         background-color darkgray
         clear both
@@ -77,7 +82,7 @@ html, body
     #experience-link
         margin-left 0%
     .header-row
-        height (160/16)em
+        height (245/16)em
 
 
 

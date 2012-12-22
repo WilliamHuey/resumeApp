@@ -1,19 +1,20 @@
 @font-face{font-family:'webfontbold';src:url("/fonts/nevis-webfont.eot");src:url("/fonts/nevis-webfont.eot") format('embedded-opentype'),url("/fonts/nevis-webfont.woff") format('woff'),url("/fonts/nevis-webfont.ttf") format('truetype'),url("/fonts/nevis-webfont.svg") format('svg');font-weight:normal;font-style:normal}
 html,body{background-image:url("/images/fabric_plaid.png");width:100%;padding:0}
 .header-row{background-color:#808080;height:5.625em;width:100%;-webkit-box-shadow:0 0 3px 1px #6b6b6b;box-shadow:0 0 3px 1px #6b6b6b;-webkit-box-shadow:0 0 3px 1px #6b6b6b;-moz-box-shadow:0 0 3px 1px #6b6b6b;-o-box-shadow:0 0 3px 1px #6b6b6b;border-bottom:solid 1px #a9a9a9}
-.header-row-contents{width:62.5em;height:5.625em;font-family:webfontbold;margin:auto}
+.header-row-contents{position:relative;width:62.5em;height:5.625em;font-family:webfontbold;margin:auto}
 .header-link{text-decoration:none !important;color:#fff;font-size:1.5em;outline:0 !important;}
 .header-link:hover{color:#d3d3d3}
 .header-link:visited{color:#fff;}
 .header-link:visited:hover{color:#d3d3d3}
 .individual-link-area{margin-top:5%}
 #experience-link{margin-left:-6.5%}
-#my-logo{width:150px;position:absolute}
+#my-logo{width:150px;top:12px;left:5%;position:absolute}
 @media screen and (max-width: 79.94em){body{padding:0}
 .header-row-contents{width:100%}
-}@media screen and (min-width: 0em) and (max-width: 47.9375em){.individual-link-area{background-color:#a9a9a9;clear:both}
+}@media screen and (min-width: 0em) and (max-width: 47.9375em){#my-logo{position:relative;margin:auto;left:0%}
+.individual-link-area{background-color:#a9a9a9;clear:both}
 .individual-link-area{margin-top:0%;margin-bottom:.625em;text-align:center}
 #first-link{margin-top:1.875em}
 #experience-link{margin-left:0%}
-.header-row{height:10em}
+.header-row{height:15.3125em}
 }
