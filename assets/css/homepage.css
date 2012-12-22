@@ -11,7 +11,14 @@ html,body{background-image:url("/images/fabric_plaid.png");width:100%;padding:0 
 #experience-link{margin-left:-6.5%}
 #my-logo{width:150px;top:12px;left:5%;position:absolute}
 .body-wrapper{width:62.5em;margin:auto;clear:both}
-.self-info-row{background-color:#f4f4f4}
+.common-row-format{padding:2.1875em;padding-left:3.125em;padding-right:3.125em}
+.self-info-row{background-color:#fafafa}
+.skills-row{background-color:#f4f4f4}
+.web-technologies-list{list-style:none;padding-left:.625em}
+.indent-h2{padding-left:1.25em}
+.experience-row{background-color:#fafafa}
+.education-row{background-color:#f4f4f4}
+.contact-row{background-color:#fafafa}
 @media screen and (max-width: 79em){body{padding:0}
 .header-row-contents{width:100%}
 .body-wrapper{width:100%}
