@@ -1,5 +1,6 @@
 @font-face{font-family:'webfontbold';src:url("/fonts/nevis-webfont.eot");src:url("/fonts/nevis-webfont.eot") format('embedded-opentype'),url("/fonts/nevis-webfont.woff") format('woff'),url("/fonts/nevis-webfont.ttf") format('truetype'),url("/fonts/nevis-webfont.svg") format('svg');font-weight:normal;font-style:normal}
 html,body{background-image:url("/images/fabric_plaid.png");width:100%;padding:0 0 0 0}
+ul{list-style:none}
 .header-row{background-color:#808080;height:5.625em;width:100%;-webkit-box-shadow:0 0 3px 1px #6b6b6b;box-shadow:0 0 3px 1px #6b6b6b;-webkit-box-shadow:0 0 3px 1px #6b6b6b;-moz-box-shadow:0 0 3px 1px #6b6b6b;-o-box-shadow:0 0 3px 1px #6b6b6b;border-bottom:solid 1px #a9a9a9}
 .header-row-contents{position:relative;width:62.5em;height:5.625em;font-family:webfontbold;margin:auto}
 .header-link-wrapper{margin-left:50% !important}
@@ -13,14 +14,19 @@ html,body{background-image:url("/images/fabric_plaid.png");width:100%;padding:0 
 .body-wrapper{width:62.5em;margin:auto;clear:both}
 .common-row-format{padding:2.1875em;padding-left:3.125em;padding-right:3.125em}
 .self-info-row{background-color:#fafafa}
-.self-thoughts-paragraph{padding-left:2.5em;font-size:1.2em}
+.self-thoughts-paragraph{padding-left:2.5em;font-size:1.3em;line-height:1.6em}
 .skills-row{background-color:#f4f4f4}
-.web-technologies-list,.applications-list,.operating-system-list{list-style:none;padding-left:3.125em}
+.web-technologies-list,.applications-list,.operating-system-list{padding-left:3.75em}
 .indent-h2{padding-left:1.25em}
+.indent-h3{padding-left:3.3125em}
+.refine-list,.chroma-list{padding-left:5.625em}
+.shop-detail{padding-left:9.375em}
 .experience-row{background-color:#fafafa}
 .education-row{background-color:#f4f4f4}
+.indent-degree{font-size:1.3em;padding-left:4.375em}
 .contact-row{background-color:#fafafa}
 .contact-info-paragraph{padding-left:2.5em;font-size:1.2em}
+#blog-link{padding-left:.4em}
 @media screen and (max-width: 79em){body{padding:0}
 .header-row-contents{width:100%}
 .body-wrapper{width:100%}
