@@ -24,13 +24,14 @@ ul{list-style:none}
 .indent-h2{padding-left:1.25em}
 .indent-h3{padding-left:3.3125em}
 .refine-list,.chroma-list{padding-left:5.625em}
-.shop-detail{padding-left:9.375em}
+.refine-details{font-size:1.2em;padding-left:3.125em}
 .experience-row{background-color:#fafafa}
 .education-row{background-color:#f4f4f4}
 .experience-header{padding-left:3.9375em}
-.indent-degree{font-size:1.3em;padding-left:4.375em}
-.contact-row{background-color:#fafafa}
+.indent-degree{font-size:1.3em;padding-left:6.125em}
+.contact-row{background-color:#fafafa;padding-bottom:25em}
 .contact-info-paragraph{padding-left:2.5em;font-size:1.2em}
+.contact-paragraph{font-family:nevis;font-weight:normal}
 #blog-link{padding-left:.4em}
 @media screen and (max-width: 79em){body{padding:0}
 .header-row-contents{width:100%}

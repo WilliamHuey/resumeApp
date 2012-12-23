@@ -9,11 +9,11 @@ block content
           img(src= '/images/willsLogo.png', alt="logo")
         .span6.offset6.header-link-wrapper
           .span3.individual-link-area#first-link
-            a(href="#", class="header-link", id="skill-link") Skills
+            a(href="#skill-part", class="header-link", id="skill-link") Skills
           .span4.individual-link-area
-            a(href="#", class="header-link", id="experience-link") Experience
+            a(href="#experience-part", class="header-link", id="experience-link") Experience
           .span4.individual-link-area
-            a(href="#", class="header-link") Education
+            a(href="#education-part", class="header-link") Education
     .row-fluid.body-wrapper
       .row-fluid
         .span12.self-info-row.common-row-format
@@ -23,7 +23,7 @@ block content
             | more accessible for information.
       .row-fluid
         .span12.skills-row.common-row-format
-          h1.top-headers Skills
+          h1(id="skill-part", class="top-headers") Skills
           h2.indent-h2.secondary-headers Web Technologies
           div.web-technologies-list
             div
@@ -68,34 +68,30 @@ block content
 
       .row-fluid
         .span12.experience-row.common-row-format
-          h1.top-headers Experience
+          h1(id="experience-part", class="top-headers") Experience
+
           h2.indent-h2.secondary-headers Web Site Design
           h3.indent-h3.sub-header.experience-header Refine for Men (August 2012 - Present)
-          ul.refine-list
-            li
-              h4 Manage content and design for entire site
-            li
-              h4 Used Storeenvy’s built-in html editor to design shop page
-          h5.shop-detail Shade selector uses Backbone
+          div.refine-list
+            p.sub-category.refine-items Manage content and design for entire site
+            p.sub-category.refine-items Used Storeenvy’s built-in html editor to design shop page.
+            p.sub-category.refine-items.refine-details Shade selector uses Backbone
 
           h2.indent-h2.secondary-headers Business
           h3.indent-h3.sub-header.experience-header Spectagon Studios (September 2011 - June 2012)
-          h3.indent-h3.sub-header Marketing Analyst
-          ul.chroma-list
-            li
-              h4 Conducted surveys for the game Chroma to understand the gaming markets
-            li
-              h4 Researched gaming trends and provided input
-            li
-              h4 Play tested Chroma to ensure bugs are fixed
+          h3.indent-h3.sub-header.experience-header Marketing Analyst
+          div.chroma-list
+            p.sub-category Conducted surveys for the game Chroma to understand the gaming markets
+            p.sub-category Researched gaming trends and provided input
+            p.sub-category Play tested Chroma to ensure bugs are fixed
       .row-fluid
         .span12.education-row.common-row-format
-          h1.top-headers Education
+          h1(id="education-part", class="top-headers") Education
           h2.indent-h2.secondary-headers University of California Santa Cruz (2007 - 2011)
-          p.indent-degree Bachelor of Arts - Business Management Economics Degree
+          p.indent-degree.sub-category Bachelor of Arts - Business Management Economics Degree
       .row-fluid
         .span12.contact-row.common-row-format
           h2.top-headers Contact Info
-          p.contact-info-paragraph wklhuey@gmail.com |
+          p.contact-info-paragraph.sub-category.contact-paragraph wklhuey@gmail.com |
              a(href="http://www.wklhuey.wordpress.com", id="blog-link") www.wklhuey.wordpress.com
 
