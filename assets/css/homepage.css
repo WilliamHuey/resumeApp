@@ -16,15 +16,18 @@ ul{list-style:none}
 .secondary-headers{font-family:nevis;font-weight:500;font-size:2em}
 .common-row-format{padding:2.1875em;padding-left:3.125em;padding-right:3.125em}
 .self-info-row{background-color:#fafafa}
+.sub-header{font-size:1.5em;font-weight:500;font-family:nevis;letter-spacing:.08em}
+.sub-category{font-weight:normal;font-size:1.3em;font-family:Times New Roman;padding-left:1.875em;letter-spacing:.08em}
 .self-thoughts-paragraph{padding-left:2.5em;font-size:1.3em;line-height:1.6em;font-weight:normal;font-family:Times New Roman;letter-spacing:.08em}
 .skills-row{background-color:#f4f4f4}
-.web-technologies-list,.applications-list,.operating-system-list{padding-left:3.75em}
+.web-technologies-list,.applications-list,.operating-system-list{padding-left:4.375em}
 .indent-h2{padding-left:1.25em}
 .indent-h3{padding-left:3.3125em}
 .refine-list,.chroma-list{padding-left:5.625em}
 .shop-detail{padding-left:9.375em}
 .experience-row{background-color:#fafafa}
 .education-row{background-color:#f4f4f4}
+.experience-header{padding-left:3.9375em}
 .indent-degree{font-size:1.3em;padding-left:4.375em}
 .contact-row{background-color:#fafafa}
 .contact-info-paragraph{padding-left:2.5em;font-size:1.2em}
