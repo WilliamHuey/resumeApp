@@ -2,7 +2,7 @@ $width-of-header = (1000/16)em
 $height-of-header = (90/16)em
 
 @font-face
-    font-family 'webfontbold'
+    font-family 'nevis'
     src url('/fonts/nevis-webfont.eot')
     src url('/fonts/nevis-webfont.eot') format('embedded-opentype'),
     url('/fonts/nevis-webfont.woff') format('woff'),
@@ -19,6 +19,8 @@ html, body
 ul
     list-style none
 
+
+
 .header-row
     background-color gray
     height $height-of-header
@@ -33,7 +35,7 @@ ul
     position relative
     width $width-of-header
     height $height-of-header
-    font-family webfontbold
+    font-family nevis
     margin auto
 
 .header-link-wrapper
@@ -68,6 +70,16 @@ ul
     margin auto
     clear both
 
+.top-headers
+    font-family nevis
+    font-size 2.5em
+    font-weight 500
+
+.secondary-headers
+    font-family nevis
+    font-weight 500
+    font-size 2em
+
 .common-row-format
     padding (35/16)em
     padding-left (50/16)em
@@ -80,6 +92,9 @@ ul
     padding-left (40/16)em
     font-size 1.3em
     line-height 1.6em
+    font-weight normal
+    font-family Times New Roman
+    letter-spacing 0.08em
 
 .skills-row
     background-color #f4f4f4
